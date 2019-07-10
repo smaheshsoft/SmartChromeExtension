@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="popup.js"></script>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        form {
+            min-width: 330px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Welcome to Smart Util</h2>
+
+    <form>
+        <input type="checkbox" class="user-option" id="chk_1" name="chk_1" value="1">Skip Add in Youtube<br>
+        <hr />
+        <input type="checkbox" class="user-option" id="chk_2" name="chk_2" value="2">Remove the top banner in youtube<br>
+        <hr />
+        <input type="checkbox" class="user-option" id="chk_3" name="chk_3" value="3">Remove Google Ads from all sites<br>
+        <hr />
+        <input type="checkbox" class="user-option" id="chk_4" name="chk_4" value="4">Enable Download option in Youtube<br>
+
+    </form>
+
+</body>
+</html>

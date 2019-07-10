@@ -1,0 +1,34 @@
+.sample-video {
+    border: 1px green solid;
+}
+.buttondwn {
+    display: inline-block;
+    padding: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 3px #999;
+    margin:2px;
+}
+
+    .buttondwn:hover {
+        background-color: #3e8e41
+    }
+
+    .buttondwn:active {
+        background-color: #3e8e41;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+.btndw-res {
+    background-color: #007bff;
+}
+.btndown-ply-list{
+    height:21px !important;
+}

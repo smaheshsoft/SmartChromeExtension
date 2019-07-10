@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "Smart Util 1.0",
+  "version": "1.0.0",
+  "description": "Youtube - Add Remover, Video download, Techiedelight - User selection Enabled, Others - Google Ads removed ",
+
+  "content_scripts": [
+    {
+      "css": [ "styles.css" ],
+      "js": [ "jquery-3.3.1.min.js", "content.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+    }
+  ],
+  "browser_action": {
+    "default_icon": "images/iconsmartutil128.png",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "images/iconsmartutil128.png",
+    "48": "images/iconsmartutil128.png",
+    "128": "images/iconsmartutil128.png"
+  },
+  "permissions": [
+    "storage",
+    "cookies",
+    "tabs",
+    "<all_urls>"
+  ]
+}
